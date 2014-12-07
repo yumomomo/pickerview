@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA454A01A34661500B46E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA4549F1A34661500B46E78 /* AppDelegate.swift */; };
+		ADA454A21A34661500B46E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA454A11A34661500B46E78 /* ViewController.swift */; };
+		ADA454A51A34661500B46E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA454A31A34661500B46E78 /* Main.storyboard */; };
+		ADA454A71A34661500B46E78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA454A61A34661500B46E78 /* Images.xcassets */; };
+		ADA454AA1A34661500B46E78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA454A81A34661500B46E78 /* LaunchScreen.xib */; };
+		ADA454B61A34661500B46E78 /* pickerviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA454B51A34661500B46E78 /* pickerviewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA454B01A34661500B46E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA454921A34661500B46E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA454991A34661500B46E78;
+			remoteInfo = pickerview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA4549A1A34661500B46E78 /* pickerview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickerview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA4549E1A34661500B46E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA4549F1A34661500B46E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA454A11A34661500B46E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADA454A41A34661500B46E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA454A61A34661500B46E78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADA454A91A34661500B46E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADA454AF1A34661500B46E78 /* pickerviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickerviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA454B41A34661500B46E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA454B51A34661500B46E78 /* pickerviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerviewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA454971A34661500B46E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA454AC1A34661500B46E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA454911A34661500B46E78 = {
+			isa = PBXGroup;
+			children = (
+				ADA4549C1A34661500B46E78 /* pickerview */,
+				ADA454B21A34661500B46E78 /* pickerviewTests */,
+				ADA4549B1A34661500B46E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA4549B1A34661500B46E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA4549A1A34661500B46E78 /* pickerview.app */,
+				ADA454AF1A34661500B46E78 /* pickerviewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA4549C1A34661500B46E78 /* pickerview */ = {
+			isa = PBXGroup;
+			children = (
+				ADA4549F1A34661500B46E78 /* AppDelegate.swift */,
+				ADA454A11A34661500B46E78 /* ViewController.swift */,
+				ADA454A31A34661500B46E78 /* Main.storyboard */,
+				ADA454A61A34661500B46E78 /* Images.xcassets */,
+				ADA454A81A34661500B46E78 /* LaunchScreen.xib */,
+				ADA4549D1A34661500B46E78 /* Supporting Files */,
+			);
+			path = pickerview;
+			sourceTree = "<group>";
+		};
+		ADA4549D1A34661500B46E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA4549E1A34661500B46E78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADA454B21A34661500B46E78 /* pickerviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA454B51A34661500B46E78 /* pickerviewTests.swift */,
+				ADA454B31A34661500B46E78 /* Supporting Files */,
+			);
+			path = pickerviewTests;
+			sourceTree = "<group>";
+		};
+		ADA454B31A34661500B46E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA454B41A34661500B46E78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA454991A34661500B46E78 /* pickerview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA454B91A34661500B46E78 /* Build configuration list for PBXNativeTarget "pickerview" */;
+			buildPhases = (
+				ADA454961A34661500B46E78 /* Sources */,
+				ADA454971A34661500B46E78 /* Frameworks */,
+				ADA454981A34661500B46E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pickerview;
+			productName = pickerview;
+			productReference = ADA4549A1A34661500B46E78 /* pickerview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA454AE1A34661500B46E78 /* pickerviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA454BC1A34661500B46E78 /* Build configuration list for PBXNativeTarget "pickerviewTests" */;
+			buildPhases = (
+				ADA454AB1A34661500B46E78 /* Sources */,
+				ADA454AC1A34661500B46E78 /* Frameworks */,
+				ADA454AD1A34661500B46E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA454B11A34661500B46E78 /* PBXTargetDependency */,
+			);
+			name = pickerviewTests;
+			productName = pickerviewTests;
+			productReference = ADA454AF1A34661500B46E78 /* pickerviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA454921A34661500B46E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "ＹＵＭＯ";
+				TargetAttributes = {
+					ADA454991A34661500B46E78 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					ADA454AE1A34661500B46E78 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = ADA454991A34661500B46E78;
+					};
+				};
+			};
+			buildConfigurationList = ADA454951A34661500B46E78 /* Build configuration list for PBXProject "pickerview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA454911A34661500B46E78;
+			productRefGroup = ADA4549B1A34661500B46E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA454991A34661500B46E78 /* pickerview */,
+				ADA454AE1A34661500B46E78 /* pickerviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA454981A34661500B46E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA454A51A34661500B46E78 /* Main.storyboard in Resources */,
+				ADA454AA1A34661500B46E78 /* LaunchScreen.xib in Resources */,
+				ADA454A71A34661500B46E78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA454AD1A34661500B46E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA454961A34661500B46E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA454A21A34661500B46E78 /* ViewController.swift in Sources */,
+				ADA454A01A34661500B46E78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA454AB1A34661500B46E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA454B61A34661500B46E78 /* pickerviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA454B11A34661500B46E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA454991A34661500B46E78 /* pickerview */;
+			targetProxy = ADA454B01A34661500B46E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA454A31A34661500B46E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA454A41A34661500B46E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA454A81A34661500B46E78 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA454A91A34661500B46E78 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA454B71A34661500B46E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA454B81A34661500B46E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA454BA1A34661500B46E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pickerview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADA454BB1A34661500B46E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pickerview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADA454BD1A34661500B46E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pickerviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickerview.app/pickerview";
+			};
+			name = Debug;
+		};
+		ADA454BE1A34661500B46E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pickerviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickerview.app/pickerview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA454951A34661500B46E78 /* Build configuration list for PBXProject "pickerview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA454B71A34661500B46E78 /* Debug */,
+				ADA454B81A34661500B46E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA454B91A34661500B46E78 /* Build configuration list for PBXNativeTarget "pickerview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA454BA1A34661500B46E78 /* Debug */,
+				ADA454BB1A34661500B46E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADA454BC1A34661500B46E78 /* Build configuration list for PBXNativeTarget "pickerviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA454BD1A34661500B46E78 /* Debug */,
+				ADA454BE1A34661500B46E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA454921A34661500B46E78 /* Project object */;
+}
